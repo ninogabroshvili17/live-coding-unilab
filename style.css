@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    height: 100vh;
+    background: linear-gradient(112.9deg, #19191B 0%, #111113 100%);
+}
+
+.container{
+    width: 20%;
+}
+
+.add-clear{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-item{
+    cursor: pointer;
+    width: 146px;
+    height: 37px;
+    background-color: #E27125;
+    border: none;
+    border-radius: 8px;
+}
+
+#add-item span, #clear span, #fetch-ip span, .ip-address-form label{
+    color: #FBD6C1;
+    font-size: 1rem;
+}
+
+#clear{
+    cursor: pointer;
+    width: 83px;
+    background-color: #19191B;
+    border: none;
+    border-radius: 8px;
+}
+
+#fetch-ip{
+    cursor: pointer;
+    width: 100%;
+    background-color: #19191B;
+    border: none;
+    border-radius: 8px;
+    height: 37px;
+    margin: 21px 0 40px;
+}
+
+#add-items-div{
+    display: flex;
+    justify-self: center;
+}
+
+#add-items{
+    color: #FBD6C180;
+}
+
+.ip-address-div{
+    width: 100%;
+    background-color: #19191B;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    position: relative;
+}
+
+.ip-address-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #151516;
+    color: #FBD6C1;
+    padding: 10px;
+    border: none;
+}
+
+#clear-btn, #clear-btn-ip{
+    border: none;
+    background-color: #19191B;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FBD6C1;
+    cursor: pointer;
+}
+
+.country, .time{
+    color: #FBD6C1;
+    font-size: 1rem;
+}
+
+.country{
+    font-size: 1.2rem;
+}
+
+.time{
+    margin: 10px 0;
+}
+
